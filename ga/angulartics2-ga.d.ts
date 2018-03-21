@@ -1,4 +1,4 @@
-import { Angulartics2, GoogleAnalyticsSettings, UserTimings } from 'angulartics2';
+import { angulartics2, GoogleAnalyticsSettings, UserTimings } from 'gtmeventtracking';
 export declare class GoogleAnalyticsDefaults implements GoogleAnalyticsSettings {
     additionalAccountNames: any[];
     userId: any;
@@ -7,7 +7,7 @@ export declare class GoogleAnalyticsDefaults implements GoogleAnalyticsSettings 
 export declare class Angulartics2GoogleAnalytics {
     private angulartics2;
     dimensionsAndMetrics: any[];
-    constructor(angulartics2: Angulartics2);
+    constructor(angulartics2: gtmeventtracking);
     pageTrack(path: string): void;
     /**
      * Track Event in GA

@@ -1,4 +1,4 @@
-import { Angulartics2, GoogleTagManagerSettings } from 'angulartics2';
+import { Angulartics2, GoogleTagManagerSettings } from 'gtmeventtracking';
 export declare class GoogleTagManagerDefaults implements GoogleTagManagerSettings {
     userId: any;
 }
