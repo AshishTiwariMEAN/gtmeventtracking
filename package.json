@@ -1,16 +1,15 @@
 {
-  "_from": "angulartics2",
-  "_id": "angulartics2@5.2.0",
+  "_from": "gtmeventtracking",
   "_inBundle": false,
   "_integrity": "sha512-6uRX6uTLEtgwFAfPAXYWexnpndWcHKoeymDrwnh95OI5KMKgdPvWC2u3amHtap5iHzpWOff5Z8322kKGTU5pgw==",
-  "_location": "/angulartics2",
+  "_location": "/gtmeventtracking",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "angulartics2",
-    "name": "angulartics2",
-    "escapedName": "angulartics2",
+    "raw": "gtmeventtracking",
+    "name": "gtmeventtracking",
+    "escapedName": "gtmeventtracking",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -19,29 +18,23 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/angulartics2/-/angulartics2-5.2.0.tgz",
-  "_shasum": "5bac82d4b6acf798b7db906488861e70b49fe04c",
-  "_spec": "angulartics2",
-  "_where": "D:\\Day Users\\Rishikesh Kumar\\Project\\ServcorpAngular5\\19032018\\community-web",
-  "author": {
-    "name": "João Ribeiro",
-    "email": "jonnybgod@gmail.com",
-    "url": "http://github.com/JonnyBGod"
-  },
+  "_spec": "gtmeventtracking",
+  "_where": "",
+  "author": "Ashish Tiwari <issue1987@gmail.com> (https://github.com/AshishTiwariMEAN)",
   "bugs": {
-    "url": "http://github.com/angulartics/angulartics2/issues"
+    "url": "https://github.com/AshishTiwariMEAN/gtmeventtracking/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
     "tslib": "^1.7.1"
   },
   "deprecated": false,
-  "description": "Vendor-agnostic web analytics for Angular2 applications",
+  "description": "GTM Google event Tracking Management System",
   "engines": {
     "node": ">=6.9.0"
   },
   "es2015": "./es2015/index.js",
-  "homepage": "https://angulartics.github.io/angulartics2/",
+  "homepage": "",
   "keywords": [
     "angular2",
     "ng2",
@@ -67,7 +60,7 @@
   "license": "MIT",
   "main": "./bundles/core.umd.js",
   "module": "./index.js",
-  "name": "angulartics2",
+  "name": "gtmeventtracking",
   "peerDependencies": {
     "@angular/common": ">= 5.0.0",
     "@angular/core": ">= 5.0.0",
@@ -79,8 +72,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angulartics/angulartics2.git"
+    "url": "git+https://github.com/AshishTiwariMEAN/gtmeventtracking.git"
   },
   "typings": "./index.d.ts",
-  "version": "5.2.0"
+  "version": "5.2.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
